@@ -1,31 +1,31 @@
 # Getting Started with Create  React TODO App
 
 ### create a new app
-npx create-react-app my-app
+`npx create-react-app my-app`
 
 ### install bootstrap
-npm i bootstrap@5.3.1
+`npm i bootstrap@5.3.1`
 
 #### add this to index.js
-import "bootstrap/dist/css/bootstrap.min.css";
+`import "bootstrap/dist/css/bootstrap.min.css";`
 
 ### install fontawesome
-npm i --save @fortawesome/fontawesome-svg-core \
-npm install --save @fortawesome/free-solid-svg-icons \
-npm install --save @fortawesome/react-fontawesome
+`npm i --save @fortawesome/fontawesome-svg-core` \
+`npm install --save @fortawesome/free-solid-svg-icons` \
+`npm install --save @fortawesome/react-fontawesome`
 
-  import ReactDOM from 'react-dom' \
-  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' \
-  import { faCoffee } from '@fortawesome/free-solid-svg-icons' \
+  `import ReactDOM from 'react-dom'` \
+  `import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'` \
+  `import { faCoffee } from '@fortawesome/free-solid-svg-icons'` \
 
-  const element = <FontAwesomeIcon icon={faCoffee} /> \
-  ReactDOM.render(element, document.body)
+  `const element = <FontAwesomeIcon icon={faCoffee} />` \
+  `ReactDOM.render(element, document.body)`
   
 ### install uuid
 
-npm i uuid \
-import { v4 as uuidv4 } from 'uuid'; \
-uuidv4();
+`npm i uuid` \
+`import { v4 as uuidv4 } from 'uuid';` \
+`uuidv4();`
 
 ### install React-Toastify
 npm i react-toastify\
