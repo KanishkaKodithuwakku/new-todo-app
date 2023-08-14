@@ -10,11 +10,11 @@ npm i bootstrap@5.3.1
 import "bootstrap/dist/css/bootstrap.min.css";
 
 ### install fontawesome
-npm i --save @fortawesome/fontawesome-svg-core\
-npm install --save @fortawesome/free-solid-svg-icons\
+npm i --save @fortawesome/fontawesome-svg-core \
+npm install --save @fortawesome/free-solid-svg-icons \
 npm install --save @fortawesome/react-fontawesome
 
-  import ReactDOM from 'react-dom'\
+  import ReactDOM from 'react-dom' \
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' \
   import { faCoffee } from '@fortawesome/free-solid-svg-icons' \
 
