@@ -6,6 +6,9 @@ npx create-react-app my-app
 ### install bootstrap
 npm i bootstrap@5.3.1
 
+#### add this to index.js
+import "bootstrap/dist/css/bootstrap.min.css";
+
 ### install fontawesome
 npm i --save @fortawesome/fontawesome-svg-core\
 npm install --save @fortawesome/free-solid-svg-icons\
