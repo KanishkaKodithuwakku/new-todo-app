@@ -15,22 +15,23 @@ npm install --save @fortawesome/free-solid-svg-icons\
 npm install --save @fortawesome/react-fontawesome
 
   import ReactDOM from 'react-dom'\
-  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'\
-  import { faCoffee } from '@fortawesome/free-solid-svg-icons'\
+  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' \
+  import { faCoffee } from '@fortawesome/free-solid-svg-icons' \
 
-  const element = <FontAwesomeIcon icon={faCoffee} />\
+  const element = <FontAwesomeIcon icon={faCoffee} /> \
   ReactDOM.render(element, document.body)
   
 ### install uuid
-npm i uuid\
-import { v4 as uuidv4 } from 'uuid';\
+
+npm i uuid \
+import { v4 as uuidv4 } from 'uuid'; \
 uuidv4();
 
 ### install React-Toastify
-npm i react-toastify\
+npm i react-toastify \
 
-import { ToastContainer, toast } from 'react-toastify';\
-import 'react-toastify/dist/ReactToastify.css';\
+import { ToastContainer, toast } from 'react-toastify'; \
+import 'react-toastify/dist/ReactToastify.css'; \
 
 toast("Wow so easy!");\
 <ToastContainer />
