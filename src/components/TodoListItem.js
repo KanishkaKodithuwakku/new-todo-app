@@ -8,5 +8,4 @@ const TodoListItem = ({ text, handleOnClick }) => {
     </li>
   );
 };
-
 export default TodoListItem;

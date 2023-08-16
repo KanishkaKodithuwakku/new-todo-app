@@ -2,6 +2,7 @@ import { useState } from "react";
 import Layout from "./components/Layout";
 import TodoForm from "./components/TodoForm";
 import TodoList from "./components/TodoList";
+import Title from "./components/Title";
 
 function App() {
   const [todos, setTodos] = useState(() => {
@@ -12,14 +13,12 @@ function App() {
     return todos;
   });
 
-
   return (
     <Layout>
-      <h1>Todos</h1>
+      <Title title={`Todos`} count={todos.length} />
       <TodoForm setTodos={setTodos} todos={todos} />
       <TodoList setTodos={setTodos} todos={todos} />
     </Layout>
   );
 }
-
 export default App;

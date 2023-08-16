@@ -33,8 +33,8 @@ const TodoForm = ({ todos, setTodos }) => {
   useEffect(() => {
     window.localStorage.setItem("todos", JSON.stringify(todos));
 
-    if (todos.length < 1) { 
-      toast.warn("No more Todos left!")
+    if (todos.length < 1) {
+      toast.warn("No more Todos left!");
     }
   }, [todos]);
 

@@ -5,9 +5,9 @@ import TodoListItem from './TodoListItem';
 const TodoList = ({ todos, setTodos }) => {
 
   const handleDeleteTodo = (index) => { 
-    console.log("delete clicked", index);
+   // console.log("delete clicked", index);
     const newTodos = todos.filter((todo, todoIndex) => todoIndex !== index);
-    console.log(newTodos);
+   // console.log(newTodos);
     setTodos(newTodos);
     toast.error(todos[index] + " is deleted form the list!");
   }
