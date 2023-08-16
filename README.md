@@ -23,22 +23,22 @@
   
 ### install uuid
 
-`npm i uuid` \
-`import { v4 as uuidv4 } from 'uuid';` \
+`npm i uuid` 
+`import { v4 as uuidv4 } from 'uuid';` 
 `uuidv4();`
 
 ### install React-Toastify
-npm i react-toastify\
+`npm i react-toastify`
 
 `import { ToastContainer, toast } from 'react-toastify';`\
 `import 'react-toastify/dist/ReactToastify.css';`\
 
-toast("Wow so easy!");\
+`toast("Wow so easy!");`
 <ToastContainer />
 
 ### JSON Server
 `npm install -g json-server`\
-json-server --watch db.json --port 3004
+`json-server --watch db.json --port 3004`
 
 
 ### `npm start`
