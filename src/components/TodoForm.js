@@ -29,11 +29,11 @@ const TodoForm = ({ todos, setTodos }) => {
   useEffect(() => {
     inputRef.current.focus();
   }, []);
-
+  const count = todos ? todos.length : 0;
   useEffect(() => {
     window.localStorage.setItem("todos", JSON.stringify(todos));
 
-    if (todos.length < 1) {
+    if (count < 1) {
       toast.warn("No more Todos left!");
     }
   }, [todos]);
