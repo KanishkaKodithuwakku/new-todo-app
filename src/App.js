@@ -13,9 +13,11 @@ function App() {
     return todos;
   });
 
+  const count = todos ? todos.length : 0;
+
   return (
     <Layout>
-      <Title title={`Todos`} count={todos.length} />
+      <Title title={`Todos`} count={count} />
       <TodoForm setTodos={setTodos} todos={todos} />
       <TodoList setTodos={setTodos} todos={todos} />
     </Layout>
