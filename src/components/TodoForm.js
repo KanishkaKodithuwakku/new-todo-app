@@ -9,7 +9,7 @@ const TodoForm = ({ todos, setTodos }) => {
   const inputRef = useRef(null);
 
   const handleOnClick = () => {
-    if (todos.indexOf(todo) !== -1) {
+    if (todos.indexOf(todo) > -1) {
       setError(todo + " is already in the list!");
       setTodo("");
       inputRef.current.focus();
