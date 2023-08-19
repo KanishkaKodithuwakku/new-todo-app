@@ -1,5 +1,7 @@
 # Getting Started with Create  React <a href='https://kanishkakodithuwakku.github.io/new-todo-app/'>TODO</a> App
 
+## <a href="https://kanishkakodithuwakku.github.io/new-todo-app/">Live Demo</a>
+
 ### create a new app
 `npx create-react-app my-app`
 
